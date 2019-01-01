@@ -1,3 +1,10 @@
+buildscript {
+    ext {
+        rxjava_version = '2.1.1'
+        coroutines_version = '0.21'
+    }
+}
+
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.2.71'
 }
@@ -6,6 +13,7 @@ group 'reactive'
 version '1.0-SNAPSHOT'
 
 repositories {
+    jcenter()
     mavenCentral()
 }
 
@@ -20,5 +28,6 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 dependencies {
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.1'
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
 }

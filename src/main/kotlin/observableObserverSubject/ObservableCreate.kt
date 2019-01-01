@@ -1,4 +1,4 @@
-package simpleCustomObservable
+package observableObserverSubject
 
 import io.reactivex.Observable
 import io.reactivex.Observer
