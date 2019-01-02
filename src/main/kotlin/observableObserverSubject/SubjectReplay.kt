@@ -1,0 +1,57 @@
+package observableObserverSubject
+
+import io.reactivex.Observable
+import io.reactivex.subjects.ReplaySubject
+import java.util.concurrent.TimeUnit
+
+/* ReplaySubject emits all emission at any subscription until the new subscription
+    catches up with the current emission and then keeps emitting*/
+
+fun main(args: Array<String>) {
+    val observable = Observable.interval(100, TimeUnit.MILLISECONDS)
+
+    val subject = ReplaySubject.create<Long>()
+
+    observable.subscribe(subject)
+
+    subject.subscribe( {
+        //onNext
+        println("1st Received $it")
+    }, {
+        //onError
+        it.printStackTrace()
+    }, {
+        //onComplete
+        println("1st Complete")
+    })
+
+    Thread.sleep(500)
+
+    subject.subscribe( {
+        //onNext
+        println("   2nd Received $it")
+    }, {
+        //onError
+        it.printStackTrace()
+    }, {
+        //onComplete
+        println("   2nd Complete")
+    })
+
+    Thread.sleep(500) // change the value and see what it is printing
+
+    subject.onComplete()
+
+    subject.subscribe( {
+        //onNext
+        println("       3rd Received $it")
+    }, {
+        //onError
+        it.printStackTrace()
+    }, {
+        //onComplete
+        println("       3rd Complete")
+    })
+
+    Thread.sleep(100)
+}
