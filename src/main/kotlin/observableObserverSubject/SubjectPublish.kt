@@ -1,17 +1,18 @@
 package observableObserverSubject
 
 import io.reactivex.Observable
-import io.reactivex.subjects.AsyncSubject
+import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit
 
-// AsyncSubject emits only the last one.
+// PublishSubject keeps emitting and you will receive what is currently emitted when you subscribe.
 
 fun main(args: Array<String>) {
     val observable = Observable.interval(100, TimeUnit.MILLISECONDS)
 
-    val subject = AsyncSubject.create<Long>()
+    val subject = PublishSubject.create<Long>()
 
     observable.subscribe(subject)
+
     subject.subscribe( {
         //onNext
         println("1st Received $it")
@@ -23,7 +24,7 @@ fun main(args: Array<String>) {
         println("Complete")
     })
 
-    Thread.sleep(1000)
+    Thread.sleep(500)
 
     subject.subscribe( {
         //onNext
@@ -36,8 +37,7 @@ fun main(args: Array<String>) {
         println("   Complete")
     })
 
-    Thread.sleep(2000) // change the value and see what it is printing
+    Thread.sleep(1000) // change the value and see what it is printing
 
-    //subject.onNext(-1) // comment - uncomment this line and see what happens
     subject.onComplete()
 }
