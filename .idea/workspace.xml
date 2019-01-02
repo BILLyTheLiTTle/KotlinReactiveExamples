@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/examples_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/examples_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/examples_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/examples_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/simpleCustomObservable/CreateObservableKt$main$observable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/simpleCustomObservable/CreateObservableKt$main$observer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/simpleCustomObservable/CreateObservableKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/simpleCustomObservable/ObservableCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableCreate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,37 +31,63 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="kt" value="6" />
+          <entry key="kt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="Kotlin" value="6" />
+          <entry key="Kotlin" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="116" />
-          <entry key="kt" value="779" />
+          <entry key="kt" value="1107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="116" />
-          <entry key="Kotlin" value="779" />
+          <entry key="Kotlin" value="1107" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
+              <folding>
+                <element signature="e#35#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="e#35#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -280,7 +291,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6185400028000" />
+        <entry key="$PROJECT_DIR$" value="6185402058000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3260369166" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
@@ -510,6 +521,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/AsyncSubject.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt" />
       </list>
     </option>
   </component>
@@ -567,15 +580,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546355524393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546432967967" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -591,7 +604,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.observableObserverSubject.HotObservableKt">
+  <component name="RunManager" selected="Kotlin.observableObserverSubject.SubjectAsyncKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -649,19 +662,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="observableObserverSubject.ObservableCreateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="examples_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="observableObserverSubject.ObservableCreateKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="observableObserverSubject.ObservableFromKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
@@ -670,6 +670,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="observableObserverSubject.ObservableFromKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="observableObserverSubject.SubjectAsyncKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="examples_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="observableObserverSubject.SubjectAsyncKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -693,19 +706,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.observableObserverSubject.ObservableCreateKt" />
       <item itemvalue="Kotlin.observableObserverSubject.ObservableFromKt" />
       <item itemvalue="Kotlin.observableObserverSubject.NoInstanceObserverKt" />
       <item itemvalue="Kotlin.observableObserverSubject.ColdObservableKt" />
       <item itemvalue="Kotlin.observableObserverSubject.HotObservableKt" />
+      <item itemvalue="Kotlin.observableObserverSubject.SubjectAsyncKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.observableObserverSubject.SubjectAsyncKt" />
         <item itemvalue="Kotlin.observableObserverSubject.HotObservableKt" />
         <item itemvalue="Kotlin.observableObserverSubject.ColdObservableKt" />
         <item itemvalue="Kotlin.observableObserverSubject.NoInstanceObserverKt" />
         <item itemvalue="Kotlin.observableObserverSubject.ObservableFromKt" />
-        <item itemvalue="Kotlin.observableObserverSubject.ObservableCreateKt" />
       </list>
     </recent_temporary>
   </component>
@@ -720,21 +733,23 @@
       <option name="presentableId" value="Default" />
       <updated>1546350216697</updated>
       <workItem from="1546350219203" duration="4917000" />
+      <workItem from="1546431423847" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4917000" />
+    <option name="totallyTimeSpent" value="6455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="1279" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -744,7 +759,7 @@
       <window_info anchor="bottom" id="Build" order="5" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -792,16 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#35#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -812,12 +817,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
+          <folding>
+            <element signature="e#35#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="378">
           <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="e#35#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#35#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
