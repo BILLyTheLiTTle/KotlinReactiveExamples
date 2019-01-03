@@ -2,11 +2,19 @@ package backpressureFlowables
 
 import io.reactivex.BackpressureOverflowStrategy
 import io.reactivex.BackpressureStrategy
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 
 fun main(args: Array<String>) {
-    val observable = Observable.range(1,1000)
+    val observable = Observable.create<String>{
+        var item = 0
+        while (item < 1001) {
+            println("Item: $item")
+            it.onNext("Item: $item")
+            item++
+        }
+    }
 
     // Comment - uncomment one of the following to see what happens
     // -- no backpressure implementation --
@@ -17,13 +25,6 @@ fun main(args: Array<String>) {
     //observable.toFlowable(BackpressureStrategy.DROP)
     // -- drop every new emission if the downstream cannot keep up but emit the last one
     //observable.toFlowable(BackpressureStrategy.LATEST)
-        .map {
-        fun printThis() {
-            println ("Mapped $it")
-        }
-        printThis()
-        it
-    }
         // Comment - uncomment any of the following when you use BackpressureStrategy.MISSING above
         // -- Drop the oldest element in the buffer and put the current.
         .onBackpressureBuffer(16, { println("Oops") }, BackpressureOverflowStrategy.DROP_OLDEST)
