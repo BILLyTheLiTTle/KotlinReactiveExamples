@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/FlowableHot.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/backpressureFlowables/DownstreamBackpressureStrategiesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableCold.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableHot.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -75,33 +68,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="5" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="5" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="1878" />
+          <entry key="kt" value="2547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="1878" />
+          <entry key="Kotlin" value="2547" />
         </counts>
       </usages-collector>
     </session>
@@ -111,32 +107,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-              <folding>
-                <element signature="e#31#193#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/FlowableHot.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="e#31#220#0" expanded="true" />
+                <element signature="e#31#192#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableHot.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="84" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -347,7 +340,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="6186022977901" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2761024761" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3260369166" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="372062142" />
       </map>
@@ -573,7 +566,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/AsyncSubject.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectBehavior.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectPublish.kt" />
@@ -586,6 +578,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/FlowableConnectable.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableHot.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/FlowableHot.kt" />
       </list>
     </option>
   </component>
@@ -606,8 +602,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -654,12 +648,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546520664121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546595182901" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -677,7 +673,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -696,19 +692,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backpressureFlowables.BackpressureProblemKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="examples_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="backpressureFlowables.BackpressureProblemKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="backpressureFlowables.DownstreamBackpressureStrategiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
@@ -717,6 +700,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="backpressureFlowables.DownstreamBackpressureStrategiesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backpressureFlowables.FlowableHotKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="examples_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="backpressureFlowables.FlowableHotKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -748,14 +744,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backpressureFlowables.SubscriberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="observableObserverSubject.ObservableHotKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="backpressureFlowables.SubscriberKt" />
+      <option name="MAIN_CLASS_NAME" value="observableObserverSubject.ObservableHotKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -779,19 +775,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.backpressureFlowables.BackpressureProblemKt" />
       <item itemvalue="Kotlin.backpressureFlowables.FlowableKt" />
-      <item itemvalue="Kotlin.backpressureFlowables.SubscriberKt" />
       <item itemvalue="Kotlin.backpressureFlowables.DownstreamBackpressureStrategiesKt" />
       <item itemvalue="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt" />
+      <item itemvalue="Kotlin.backpressureFlowables.FlowableHotKt" />
+      <item itemvalue="Kotlin.observableObserverSubject.ObservableHotKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.observableObserverSubject.ObservableHotKt" />
+        <item itemvalue="Kotlin.backpressureFlowables.FlowableHotKt" />
         <item itemvalue="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt" />
         <item itemvalue="Kotlin.backpressureFlowables.DownstreamBackpressureStrategiesKt" />
         <item itemvalue="Kotlin.backpressureFlowables.FlowableKt" />
-        <item itemvalue="Kotlin.backpressureFlowables.SubscriberKt" />
-        <item itemvalue="Kotlin.backpressureFlowables.BackpressureProblemKt" />
       </list>
     </recent_temporary>
   </component>
@@ -809,21 +805,23 @@
       <workItem from="1546431423847" duration="6009000" />
       <workItem from="1546505822399" duration="42000" />
       <workItem from="1546505888141" duration="10380000" />
+      <workItem from="1546587719121" duration="3053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21348000" />
+    <option name="totallyTimeSpent" value="24401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -833,8 +831,8 @@
       <window_info anchor="bottom" id="Build" order="5" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -857,10 +855,52 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableCold.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectReplay.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectPublish.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectBehavior.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="e#35#137#0" expanded="true" />
           </folding>
@@ -869,70 +909,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableCreate.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="391">
           <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="85">
           <caret line="6" column="67" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/HotObservable.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Subscriber.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectBehavior.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" column="24" lean-forward="true" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
-            <element signature="e#35#146#0" expanded="true" />
+            <element signature="e#31#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectReplay.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="323">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <element signature="e#35#147#0" expanded="true" />
+            <element signature="e#31#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectPublish.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -946,39 +958,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Subscriber.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.1/6112a58432d62645eca9d0aa77bf6bc7ad75b66a/rxjava-2.1.1-sources.jar!/io/reactivex/internal/operators/flowable/FlowableRange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="e#31#179#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableHot.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="e#31#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/FlowableHot.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="e#31#220#0" expanded="true" />
+            <element signature="e#31#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
