@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 
         val observable = Observable.interval(500, TimeUnit.MILLISECONDS)
 
-        observable.subscribe({//2
+        observable.subscribe({
             println("1st Observable Received: $it")
         },{
             println("Error ${it.message}")
@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
 
         delay(1500)
 
-        observable.subscribe({//3
+        observable.subscribe({
             println("   2nd Observable Received: $it")
         },{
             println("Error ${it.message}")
