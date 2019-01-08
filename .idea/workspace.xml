@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorCombineLatest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorZip.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/GoodEvening.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/GoodMorning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorCastKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorCastKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDeboundKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDeboundKt$main$observable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDeboundKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDistinctKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDistinctKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorDistinctKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorFlatMapKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorFlatMapKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorFlatMapKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorIfEmptyKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorIfEmptyKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorIfEmptyKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsAcumulatorsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operatorsFilteringTransforming/OperatorsUtilityKt.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -109,26 +76,26 @@
         <counts>
           <entry key="gradle" value="2" />
           <entry key="java" value="4" />
-          <entry key="kt" value="56" />
+          <entry key="kt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="4" />
-          <entry key="Kotlin" value="56" />
+          <entry key="Kotlin" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="8785" />
+          <entry key="kt" value="9219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="8785" />
+          <entry key="Kotlin" value="9219" />
         </counts>
       </usages-collector>
     </session>
@@ -154,51 +121,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorIfEmpty.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorsAcumulators.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="5" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorZip.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="103" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="103" />
+            <state relative-caret-position="119">
+              <caret line="7" column="99" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="99" />
               <folding>
-                <element signature="e#29#100#0" expanded="true" />
+                <element signature="e#27#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorCombineLatest.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <element signature="e#29#96#0" expanded="true" />
+                <element signature="e#27#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -686,6 +626,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorsAcumulators.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorZip.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorCombineLatest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt" />
       </list>
     </option>
   </component>
@@ -773,6 +715,15 @@
               <item name="operators" type="462c0819:PsiDirectoryNode" />
               <item name="filtering" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinReactiveExamples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
+              <item name="merging" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -785,7 +736,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546945961022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546948861773" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -810,7 +761,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.operators.combining.OperatorCombineLatestKt">
+  <component name="RunManager" selected="Kotlin.operators.merging.OperatorAmbiguousKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -855,27 +806,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.transforming.OperatorFlatMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.merging.OperatorAmbiguousKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.transforming.OperatorFlatMapKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.merging.OperatorAmbiguousKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.transforming.OperatorsAcumulatorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.merging.OperatorMergeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.transforming.OperatorsAcumulatorsKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.merging.OperatorMergeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -912,19 +863,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.operators.transforming.OperatorFlatMapKt" />
-      <item itemvalue="Kotlin.operators.transforming.OperatorsAcumulatorsKt" />
       <item itemvalue="Kotlin.operators.utility.OperatorsUtilityKt" />
       <item itemvalue="Kotlin.operators.combining.OperatorZipKt" />
       <item itemvalue="Kotlin.operators.combining.OperatorCombineLatestKt" />
+      <item itemvalue="Kotlin.operators.merging.OperatorMergeKt" />
+      <item itemvalue="Kotlin.operators.merging.OperatorAmbiguousKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.operators.merging.OperatorAmbiguousKt" />
+        <item itemvalue="Kotlin.operators.merging.OperatorMergeKt" />
         <item itemvalue="Kotlin.operators.combining.OperatorCombineLatestKt" />
         <item itemvalue="Kotlin.operators.combining.OperatorZipKt" />
         <item itemvalue="Kotlin.operators.utility.OperatorsUtilityKt" />
-        <item itemvalue="Kotlin.operators.transforming.OperatorsAcumulatorsKt" />
-        <item itemvalue="Kotlin.operators.transforming.OperatorFlatMapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -946,12 +897,12 @@
       <workItem from="1546771874940" duration="9040000" />
       <workItem from="1546848894109" duration="12757000" />
       <workItem from="1546865335305" duration="1109000" />
-      <workItem from="1546932816518" duration="4542000" />
+      <workItem from="1546932816518" duration="5721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59167000" />
+    <option name="totallyTimeSpent" value="60346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1240,6 +1191,26 @@
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#29#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="99" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="99" />
+          <folding>
+            <element signature="e#27#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#27#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
