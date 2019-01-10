@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/concatenating/OperatorConcat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorsSkipTakeKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorsSkipTakeKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/grouping/OperatorGroupByKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/grouping/OperatorGroupByKt$main$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/grouping/OperatorGroupByKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/grouping/OperatorGroupByKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/transforming/OperatorSwitchMapKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/transforming/OperatorSwitchMapKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/operators/transforming/OperatorSwitchMapKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/OperatorError.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/OperatorsSkipTake.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/grouping/OperatorGroupBy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorSwitchMap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$observable1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$observable1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$observable2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt$main$observable2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/merging/OperatorAmbiguousKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorThrottle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorThrottle.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,38 +83,39 @@
     <session id="-964226845">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
           <entry key="java" value="5" />
-          <entry key="kt" value="59" />
+          <entry key="kt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="5" />
-          <entry key="Kotlin" value="59" />
+          <entry key="Kotlin" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="9782" />
+          <entry key="kt" value="11927" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="9782" />
+          <entry key="Kotlin" value="11927" />
         </counts>
       </usages-collector>
     </session>
@@ -111,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state>
               <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
@@ -129,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="153">
               <caret line="10" column="93" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="93" />
               <folding>
                 <element signature="e#27#94#0" expanded="true" />
@@ -142,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/concatenating/OperatorConcat.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="e#33#100#0" expanded="true" />
               </folding>
@@ -162,6 +176,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>//7</find>
+      <find>throttle</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Tsap\Documents\DevelopmentProjects\IntellIJIDEA\KotlinReactiveExamples\src\main\kotlin</dir>
@@ -585,11 +600,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/simpleCustomObservable/CreateObservable.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableCreate.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/NoInstanceObserver.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ColdObservable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/AsyncSubject.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectBehavior.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectPublish.kt" />
@@ -635,6 +645,12 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/concatenating/OperatorConcat.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorThrottle.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/grouping/OperatorGroupBy.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorSwitchMap.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/BlockingSubscribe.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorsSkipTake.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorError.kt" />
       </list>
     </option>
   </component>
@@ -655,6 +671,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -738,21 +757,45 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="operators" type="462c0819:PsiDirectoryNode" />
+              <item name="grouping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinReactiveExamples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
               <item name="merging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinReactiveExamples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
+              <item name="transforming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinReactiveExamples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546951168580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547124913410" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -777,7 +820,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.operators.concatenating.OperatorConcatKt">
+  <component name="RunManager" selected="Kotlin.operators.OperatorErrorKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -796,66 +839,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.combining.OperatorCombineLatestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="observableObserverSubject.BlockingSubscribeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.combining.OperatorCombineLatestKt" />
+      <option name="MAIN_CLASS_NAME" value="observableObserverSubject.BlockingSubscribeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.combining.OperatorZipKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.OperatorErrorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.combining.OperatorZipKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.OperatorErrorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.concatenating.OperatorConcatKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.OperatorsSkipTakeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.concatenating.OperatorConcatKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.OperatorsSkipTakeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.merging.OperatorAmbiguousKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.grouping.OperatorGroupByKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.merging.OperatorAmbiguousKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.grouping.OperatorGroupByKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.merging.OperatorMergeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="operators.transforming.OperatorSwitchMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.merging.OperatorMergeKt" />
+      <option name="MAIN_CLASS_NAME" value="operators.transforming.OperatorSwitchMapKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -879,19 +922,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.operators.combining.OperatorZipKt" />
-      <item itemvalue="Kotlin.operators.combining.OperatorCombineLatestKt" />
-      <item itemvalue="Kotlin.operators.merging.OperatorMergeKt" />
-      <item itemvalue="Kotlin.operators.merging.OperatorAmbiguousKt" />
-      <item itemvalue="Kotlin.operators.concatenating.OperatorConcatKt" />
+      <item itemvalue="Kotlin.operators.grouping.OperatorGroupByKt" />
+      <item itemvalue="Kotlin.operators.transforming.OperatorSwitchMapKt" />
+      <item itemvalue="Kotlin.observableObserverSubject.BlockingSubscribeKt" />
+      <item itemvalue="Kotlin.operators.OperatorsSkipTakeKt" />
+      <item itemvalue="Kotlin.operators.OperatorErrorKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.operators.concatenating.OperatorConcatKt" />
-        <item itemvalue="Kotlin.operators.merging.OperatorAmbiguousKt" />
-        <item itemvalue="Kotlin.operators.merging.OperatorMergeKt" />
-        <item itemvalue="Kotlin.operators.combining.OperatorCombineLatestKt" />
-        <item itemvalue="Kotlin.operators.combining.OperatorZipKt" />
+        <item itemvalue="Kotlin.operators.OperatorErrorKt" />
+        <item itemvalue="Kotlin.operators.OperatorsSkipTakeKt" />
+        <item itemvalue="Kotlin.observableObserverSubject.BlockingSubscribeKt" />
+        <item itemvalue="Kotlin.operators.transforming.OperatorSwitchMapKt" />
+        <item itemvalue="Kotlin.operators.grouping.OperatorGroupByKt" />
       </list>
     </recent_temporary>
   </component>
@@ -914,11 +957,12 @@
       <workItem from="1546848894109" duration="12757000" />
       <workItem from="1546865335305" duration="1109000" />
       <workItem from="1546932816518" duration="7946000" />
+      <workItem from="1547113776383" duration="9017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62571000" />
+    <option name="totallyTimeSpent" value="71588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -928,7 +972,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -943,7 +987,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" x="0" y="0" width="206" height="381" id="Documentation" order="0" side_tool="true" weight="0.32142857" />
+      <window_info anchor="right" x="0" y="0" width="206" height="381" id="Documentation" order="0" side_tool="true" weight="0.36993605" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -1063,13 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorThrottle.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorBuffer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1148,9 +1185,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorIfEmpty.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorZip.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="103" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.1/6112a58432d62645eca9d0aa77bf6bc7ad75b66a/rxjava-2.1.1-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2718">
+          <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state>
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
@@ -1162,24 +1227,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorIfEmpty.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorsAcumulators.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="5" selection-end-column="67" />
+          <caret line="10" column="93" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="93" />
+          <folding>
+            <element signature="e#27#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,57 +1244,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorZip.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="103" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="103" />
-          <folding>
-            <element signature="e#29#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/combining/OperatorCombineLatest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="323">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorsAcumulators.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureOperatorThrottle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/grouping/OperatorGroupBy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/BlockingSubscribe.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#29#96#0" expanded="true" />
+            <element signature="e#35#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorAmbiguous.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorSwitchMap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#27#94#0" expanded="true" />
+            <element signature="e#32#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/merging/OperatorMerge.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/OperatorsSkipTake.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="93" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="93" />
+        <state relative-caret-position="442">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
-            <element signature="e#27#94#0" expanded="true" />
+            <element signature="e#19#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.1/6112a58432d62645eca9d0aa77bf6bc7ad75b66a/rxjava-2.1.1-sources.jar!/io/reactivex/Observable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/OperatorError.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2718">
-          <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/concatenating/OperatorConcat.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="e#33#100#0" expanded="true" />
           </folding>

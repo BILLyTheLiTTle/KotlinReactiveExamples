@@ -25,9 +25,9 @@ fun main(args: Array<String>) {
 
     flowable
         // Comment - uncomment one of the following
-        // emit the first item every after 1s window starts
+        // emit the first item every after 1s window starts after the last emitted item
         .throttleFirst(1, TimeUnit.SECONDS)
-        // emit the last item every after tick (1s passed
+        // emit the last item every after tick (1s passed)
         //.throttleLast(1, TimeUnit.SECONDS)
         // emit the item only if nothing is emitted in the next 1s from previous emission
         //.throttleWithTimeout(1, TimeUnit.SECONDS)
