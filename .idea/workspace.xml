@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/OperatorBlockingSubscribe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/examples_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorErrorKt$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/OperatorBlockingSubscribeKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorBlockingSubscribeKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/OperatorBlockingSubscribeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/OperatorBlockingSubscribeKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -81,26 +82,26 @@
         <counts>
           <entry key="gradle" value="2" />
           <entry key="java" value="5" />
-          <entry key="kt" value="70" />
+          <entry key="kt" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="5" />
-          <entry key="Kotlin" value="70" />
+          <entry key="Kotlin" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="12233" />
+          <entry key="kt" value="13039" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="12233" />
+          <entry key="Kotlin" value="13039" />
         </counts>
       </usages-collector>
     </session>
@@ -149,11 +150,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/OperatorBlockingSubscribe.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="e#33#276#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -594,7 +607,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectBehavior.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectPublish.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectAsync.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/SubjectReplay.kt" />
@@ -645,6 +657,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorsSkipTake.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorError.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorBlockingSubscribe.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt" />
       </list>
     </option>
   </component>
@@ -697,6 +710,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="backpressureFlowables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinReactiveExamples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrencyNparallelism" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="examples" type="b2602c69:ProjectViewProjectNode" />
@@ -789,7 +810,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547126388178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547201715627" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -814,7 +835,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.operators.OperatorBlockingSubscribeKt">
+  <component name="RunManager" selected="Kotlin.concurrencyNparallelism.SchedulersTypesKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -829,6 +850,19 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="concurrencyNparallelism.SchedulersTypesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="examples_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="concurrencyNparallelism.SchedulersTypesKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -885,19 +919,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.transforming.OperatorSwitchMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="examples_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.transforming.OperatorSwitchMapKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -916,19 +937,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.operators.transforming.OperatorSwitchMapKt" />
       <item itemvalue="Kotlin.observableObserverSubject.BlockingSubscribeKt" />
       <item itemvalue="Kotlin.operators.OperatorsSkipTakeKt" />
       <item itemvalue="Kotlin.operators.OperatorErrorKt" />
       <item itemvalue="Kotlin.operators.OperatorBlockingSubscribeKt" />
+      <item itemvalue="Kotlin.concurrencyNparallelism.SchedulersTypesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.concurrencyNparallelism.SchedulersTypesKt" />
         <item itemvalue="Kotlin.operators.OperatorBlockingSubscribeKt" />
         <item itemvalue="Kotlin.operators.OperatorErrorKt" />
         <item itemvalue="Kotlin.operators.OperatorsSkipTakeKt" />
         <item itemvalue="Kotlin.observableObserverSubject.BlockingSubscribeKt" />
-        <item itemvalue="Kotlin.operators.transforming.OperatorSwitchMapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -953,12 +974,12 @@
       <workItem from="1546932816518" duration="7946000" />
       <workItem from="1547113776383" duration="9017000" />
       <workItem from="1547125722322" duration="738000" />
-      <workItem from="1547196504742" duration="254000" />
+      <workItem from="1547196504742" duration="4382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72580000" />
+    <option name="totallyTimeSpent" value="76708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1310,8 +1331,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/OperatorBlockingSubscribe.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="238">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#276#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
