@@ -14,22 +14,23 @@ fun main(args: Array<String>) {
 
     // Comment - uncomment any of the following
     //// --- Generate function ---
-    /*var item = 0
+    var item = 0
     val flowable = Flowable.generate<String> {
         println("Item: $item")
         it.onNext("Item: $item")
         item++
-    }*/
+    }
     //// --- Generate function ---
+
     //// --- Create function ---
-    val flowable = Flowable.create<String>({
+    /*val flowable = Flowable.create<String>({
         var item = 0
         while (item < 1001) {
             println("Item: $item")
             it.onNext("Item: $item")
             item++
         }
-    }, BackpressureStrategy.BUFFER)
+    }, BackpressureStrategy.BUFFER)*/
     //// --- Create function ---
 
     flowable.map {
