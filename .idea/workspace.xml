@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a27d1-01f8-44e0-b791-2dc2dacd3349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators/custom/OperatorCompose.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,46 +66,80 @@
     <session id="-964226845">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
           <entry key="java" value="11" />
-          <entry key="kt" value="89" />
+          <entry key="kt" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="11" />
-          <entry key="Kotlin" value="89" />
+          <entry key="Kotlin" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="kt" value="15607" />
+          <entry key="kt" value="17040" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="15607" />
+          <entry key="Kotlin" value="17040" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="e#35#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+              <folding>
+                <element signature="e#33#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -541,8 +575,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/BackpressureStrategies.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Subscriber.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/Flowable.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/DownstreamBackpressureStrategies.kt" />
@@ -587,11 +619,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorError.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/OperatorBlockingSubscribe.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/resources/ResourceManagement.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/custom/OperatorLift.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/operators/custom/OperatorCompose.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/backpressureFlowables/SourceBackpressureStrategy.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt" />
       </list>
     </option>
   </component>
@@ -612,6 +646,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -755,14 +791,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547541316546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547628598642" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -787,7 +821,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt">
+  <component name="RunManager" selected="Kotlin.observableObserverSubject.ObservableFromKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -832,6 +866,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="observableObserverSubject.ObservableFromKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="examples_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="observableObserverSubject.ObservableFromKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="operators.custom.OperatorComposeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="examples_main" />
       <option name="VM_PARAMETERS" />
@@ -858,19 +905,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators.resources.ResourceManagementKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="examples_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="operators.resources.ResourceManagementKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -889,19 +923,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.concurrencyNparallelism.ThreadAssignmentKt" />
-      <item itemvalue="Kotlin.operators.resources.ResourceManagementKt" />
       <item itemvalue="Kotlin.operators.custom.OperatorLiftKt" />
       <item itemvalue="Kotlin.operators.custom.OperatorComposeKt" />
       <item itemvalue="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt" />
+      <item itemvalue="Kotlin.observableObserverSubject.ObservableFromKt" />
+      <item itemvalue="Kotlin.concurrencyNparallelism.ThreadAssignmentKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.observableObserverSubject.ObservableFromKt" />
+        <item itemvalue="Kotlin.concurrencyNparallelism.ThreadAssignmentKt" />
         <item itemvalue="Kotlin.backpressureFlowables.SourceBackpressureStrategyKt" />
         <item itemvalue="Kotlin.operators.custom.OperatorComposeKt" />
         <item itemvalue="Kotlin.operators.custom.OperatorLiftKt" />
-        <item itemvalue="Kotlin.operators.resources.ResourceManagementKt" />
-        <item itemvalue="Kotlin.concurrencyNparallelism.ThreadAssignmentKt" />
       </list>
     </recent_temporary>
   </component>
@@ -930,11 +964,13 @@
       <workItem from="1547466165823" duration="4614000" />
       <workItem from="1547472497076" duration="66000" />
       <workItem from="1547538199095" duration="2429000" />
+      <workItem from="1547558467262" duration="63000" />
+      <workItem from="1547621071822" duration="5129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87324000" />
+    <option name="totallyTimeSpent" value="92516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -944,7 +980,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29317698" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29957357" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -1058,13 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ff62b6a76e3200cac3d7df0859d7665fe6d54955/kotlin-stdlib-common-1.2.71-sources.jar!/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -1150,20 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/resources/ResourceManagement.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1210,9 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="93" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="93" />
-          <folding>
-            <element signature="e#27#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1220,9 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#100#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,16 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#26#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1268,9 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="e#26#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,6 +1323,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/operators/transforming/OperatorFlatMap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/SchedulersTypes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/observableObserverSubject/ObservableFrom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#35#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/concurrencyNparallelism/ThreadAssignment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+          <folding>
+            <element signature="e#33#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
